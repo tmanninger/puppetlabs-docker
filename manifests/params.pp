@@ -86,7 +86,7 @@ class docker::params {
   $os_lc                                = downcase($facts['os']['name'])
   $docker_msft_provider_version         = undef
   $nuget_package_provider_version       = undef
-  $docker_command                       = 'docker' 
+  $docker_command                       = 'docker'
   $run_systemd_start_limit_interval_sec = 20
   $run_systemd_start_limit_burst        = 3
 
