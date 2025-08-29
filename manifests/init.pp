@@ -348,6 +348,8 @@
 # @param service_hasrestart
 # @param acknowledge_unsupported_os
 # @param have_systemd_v230
+# @param systemd_start_limit_interval_sec
+# @param systemd_start_limit_burst
 #
 class docker (
   Optional[String]                        $version                              = $docker::params::version,
